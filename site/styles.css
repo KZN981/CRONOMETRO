@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #8A0829;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #00FFFF;
+}
+.timer {
+    font-size: 3rem;
+    margin: 20px 0;
+    color: #00FFFF;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #00FFFF;
+    color: #190707;
+}
+button:hover {
+    background-color: #0056b3;
+}
+button:disabled {
+    background-color: #8A0829;
+    cursor: not-allowed;
+}
